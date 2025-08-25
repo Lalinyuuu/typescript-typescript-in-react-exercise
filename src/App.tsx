@@ -1,5 +1,10 @@
-function App() {
-  return;
-}
+import "./App.css";
+import TodoApp from "./TodoApp";
 
-export default App;
+export default function App() {
+  return (
+    <div>
+      <TodoApp />
+    </div>
+  );
+}
