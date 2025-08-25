@@ -7,9 +7,10 @@ function App() {
   return (
     <Router>
       <Routes>
-        // TODO3: เพิ่ม Route ไป Home ตรงนี้
+        {/* TODO3: เพิ่ม Route ไป Home ตรงนี้ */}
         <Route path="/" element={<Home name="nuk" />} />
-        // TODO4: เพิ่ม Route ไป UsersList ตรงนี้
+
+        {/* TODO4: เพิ่ม Route ไป UsersList ตรงนี้ */}
         <Route path="/users" element={<UsersList />} />
       </Routes>
     </Router>

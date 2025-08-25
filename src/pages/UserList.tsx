@@ -6,7 +6,7 @@ interface User {
   name: string;
 }
 
-const UsersList = () => {
+const UsersList: React.FC = () => {
   const users: User[] = [
     { id: 1, name: "Alice" },
     { id: 2, name: "Bob" },
