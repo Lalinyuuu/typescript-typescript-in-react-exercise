@@ -3,10 +3,15 @@ import { useState } from "react";
 
 // TODO1:  ประกาศ Type ด้วย type หรือ inerface
 
+interface GreetingProp {
+  name: string;
+  age: number;
+}
+
 // TODO2: กำหนด Type ให้ props
-const Greeting = (props) => {
+const Greeting = (props: GreetingProp) => {
   // TODO3: กำหนด Type ให้ useState
-  const [count, setCount] = useState();
+  const [count, setCount] = useState<number>(0);
 
   return (
     <div>
